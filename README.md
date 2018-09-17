@@ -10,8 +10,13 @@
 
  First one helps to write redux/reducer logic.
  Second one helps to enject redux into reactjs project.
+ 
+### Redux implementation in 3 steps.
+    1. Creating reducer.
+    2. Enject redux into index.js file.
+    3. Using reducer into a component.
 
-##### 1. Created reducer file inside the directory store/Reducers/TraficReducer.js
+### 1. Created reducer file inside the directory store/Reducers/TraficReducer.js
 
 ```
 // define initial state variables
@@ -75,7 +80,7 @@ registerServiceWorker();
 
 Now, redux enject in reactjs.
 
-##### 3. Using reducer into a component. (TraficLight.js)
+### 3. Using reducer into a component. (TraficLight.js)
 ```
 import React from "react";
 import { connect } from 'react-redux'; // connect component helps to bind reducers with component
@@ -147,6 +152,5 @@ export default connect(mapPropsToRedux, mapDispatchToRedux)(TraficLight);
 
 
 
-
-
+Live Demo :- https://fir-210d8.firebaseapp.com/
 
