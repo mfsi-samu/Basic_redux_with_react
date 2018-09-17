@@ -1,0 +1,51 @@
+.traficLight {
+    text-align: center;
+  }
+
+.stopTrue {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .stopFalse {
+    height: 50px;
+    width: 50px;
+    background-color: #ffb2b2;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .readyTrue {
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .readyFalse {
+    height: 50px;
+    width: 50px;
+    background-color: #ffff94;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .goTrue {
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .goFalse {
+    height: 50px;
+    width: 50px;
+    background-color: lightgreen;
+    border-radius: 50%;
+    display: inline-block;
+  }
